@@ -1,0 +1,17 @@
+*{
+    max-width: 1950px;
+    max-height: 1080px;
+    box-sizing: border-box;
+   
+}
+
+body{
+    width: 1440px;
+    height: 85vh;
+}
+
+#header{
+    width: 1440px;
+    height: 85vh;
+    background: linear-gradient(314.56deg, #011154 20.14%, #053289 57.69%, rgba(0, 167, 46, 0.92) 90.53%, rgba(0, 167, 46, 0.94) 99.36%);
+}
