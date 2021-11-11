@@ -2,16 +2,31 @@
     max-width: 1950px;
     max-height: 1080px;
     box-sizing: border-box;
-   
+    padding: 0;
+    margin: 0;
 }
 
 body{
-    width: 1440px;
-    height: 85vh;
+    background-color: rgb(231, 231, 231);
 }
 
-#header{
-    width: 1440px;
-    height: 85vh;
-    background: linear-gradient(314.56deg, #011154 20.14%, #053289 57.69%, rgba(0, 167, 46, 0.92) 90.53%, rgba(0, 167, 46, 0.94) 99.36%);
+#Conteudo{
+    background-color: white;
+    height: 70%;
+    width: 90%;
+    margin: 5%;
+    padding: 3% 2%;
+    border: solid 0.1px rgb(219, 219, 219);
+    border-radius: 1%;
+    box-shadow: 4px 4px 0 #333;
+    -webkit-box-shadow: 4px 4px 0 #333;
+    -moz-box-shadow: 4px 4px 0 #333;
+}
+
+
+
+#cabecalho{
+    width: 100%;
+    height: 20%;
+    background-color: #E9E5CE;
 }
