@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Satisfy&display=swap');
 
 .title{
-    font-family: Fjalla One, sans-serif;
-    color: rgb(77, 124, 84);
+    font-family: Bebas Neue, sans-serif;
+    color: rgb(78, 148, 87);
     font-size: 60px;
-
 }
 
 .normalText{
     font-family: Signika, sans-serif;
+    font-size: 18px;
 }
 
-/*Posicionamento*/
-
+/*Posições*/
 .left{
     text-align: left;
 }
@@ -27,4 +26,11 @@
 
 .justify{
     text-align: justify;
+}
+/*!Posições!*/
+
+/*Especificações*/
+
+.underline{    
+text-decoration: underline solid 10px rgb(78, 148, 87);
 }

@@ -1,6 +1,4 @@
 *{
-    max-width: 1950px;
-    max-height: 1080px;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,9 +6,31 @@
 
 body{
     background-color: rgb(231, 231, 231);
+    overflow: scroll;
 }
 
-#Conteudo{
+#header{
+    height: 80vh;
+    background-color: #E9E5CE;
+    margin-bottom: 5vh;
+
+    background-image: url(../img/painel-header.png);
+    background-size: 100vh;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+#navBar{
+    background-color: rgb(78, 148, 87);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+#content{
     background-color: white;
     height: 70%;
     width: 90%;
@@ -23,10 +43,44 @@ body{
     -moz-box-shadow: 4px 4px 0 #333;
 }
 
+/*Images*/
 
 
-#cabecalho{
-    width: 100%;
-    height: 20%;
-    background-color: #E9E5CE;
+/*Designs*/
+
+#vinha1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../img/ramos1.png);
+}
+
+#vinha2{
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+#vinha3{
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+#vinha4{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+#vinha5{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#vinha6{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
