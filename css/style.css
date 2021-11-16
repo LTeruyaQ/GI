@@ -6,18 +6,17 @@
 
 body{
     background-color: rgb(231, 231, 231);
-    overflow: scroll;
 }
 
 #header{
-    height: 80vh;
+    height: 100vh;
     background-color: #E9E5CE;
     margin-bottom: 5vh;
 
     background-image: url(../img/painel-header.png);
-    background-size: 100vh;
+    background-size: 120vh;
     background-position-x: 50%;
-    background-position-y: 100%;
+    background-position-y: 80%;
     background-repeat: no-repeat;
 }
 
@@ -28,11 +27,19 @@ body{
     position: fixed;
     z-index: 1;
     top: 0;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
-#content{
+#destinations{
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#content1{
     background-color: white;
-    height: 70%;
     width: 90%;
     margin: 5%;
     padding: 3% 2%;
@@ -41,6 +48,12 @@ body{
     box-shadow: 4px 4px 0 #333;
     -webkit-box-shadow: 4px 4px 0 #333;
     -moz-box-shadow: 4px 4px 0 #333;
+}
+
+#content2{
+    width: 90%;
+    margin: 5%;
+    padding: 3% 2%;
 }
 
 /*Images*/

@@ -1,0 +1,9 @@
+.icon{
+    height:50px;
+}
+
+#navBarIcon{
+    z-index: 1;
+    top: 0;
+    margin: 3px 20px;
+}
