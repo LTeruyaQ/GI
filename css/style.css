@@ -2,17 +2,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
 
 body{
     background-color: rgb(231, 231, 231);
 }
 
-#header{
+header{
     height: 100vh;
     background-color: #E9E5CE;
-    margin-bottom: 5vh;
-
     background-image: url(../img/painel-header.png);
     background-size: 120vh;
     background-position-x: 50%;
@@ -20,7 +19,7 @@ body{
     background-repeat: no-repeat;
 }
 
-#navBar{
+nav{
     background-color: rgb(78, 148, 87);
     width: 100%;
     height: 10vh;
@@ -31,69 +30,67 @@ body{
     justify-content: space-between;
 }
 
+/*Ids*/
+
 #destinations{
-    width: 90%;
+    width: 50%;
+    margin: 0 20% 0 15%;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
 }
 
-#content1{
+/*Divisores*/
+
+#container1{
+    background-color: rgb(231, 231, 231);
+}
+
+#container2{
+    background-color: rgb(210, 226, 205);
+    padding: 10vh 0 ;
+}
+
+#container3{
+    background-color: rgb(78, 148, 87);
+}
+
+/*Caixas de conteudo*/
+
+.content1{
     background-color: white;
     width: 90%;
-    margin: 5%;
-    padding: 3% 2%;
+    margin: 10vh 5% 15vh;
+    padding: 40px 30px;
     border: solid 0.1px rgb(219, 219, 219);
-    border-radius: 1%;
+    border-radius: 5px;
     box-shadow: 4px 4px 0 #333;
     -webkit-box-shadow: 4px 4px 0 #333;
     -moz-box-shadow: 4px 4px 0 #333;
 }
 
-#content2{
+.content2{
     width: 90%;
-    margin: 5%;
-    padding: 3% 2%;
+    margin: 5vh 5% 10vh;
+    padding: 40px 30px;
 }
 
-/*Images*/
-
-
-/*Designs*/
-
-#vinha1{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url(../img/ramos1.png);
+/*Eventos*/
+::-webkit-scrollbar {
+    background: rgb(60, 97, 65);
+    height: 8px;
+    width: 8px;
 }
 
-#vinha2{
-    position: absolute;
-    top: 0;
-    right: 40px;
+::-webkit-scrollbar-thumb {
+    background: rgb(73, 207, 91);
+    border-radius: 5px;
 }
 
-#vinha3{
-    position: absolute;
-    top: 0;
-    right: 30px;
-}
-
-#vinha4{
-    position: absolute;
-    top: 0;
-    right: 20px;
-}
-
-#vinha5{
-    position: absolute;
-    top: 0;
-    right: 10px;
-}
-
-#vinha6{
-    position: absolute;
-    top: 0;
-    right: 0;
+#destinations a:hover{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(102, 175, 111);
+    text-align: center;
+    padding: 2% 0;
 }

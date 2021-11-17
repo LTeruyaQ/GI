@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@300&display=swap');
+
+*{
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    line-height: 4vh;
+    text-align: justify;
+}
 
 a{
     text-decoration: none;
@@ -6,28 +13,28 @@ a{
 
 .title{
     font-family: Bebas Neue, sans-serif;
-    color: rgb(78, 148, 87);
     font-size: 60px;
 }
 
-.SubTitle{
-    font-family: Signika, sans-serif;
-    color: white;
-    font-size: 25px;
+.subTitle{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 40px;
 }
 
-.text1{
-    font-family: Signika, sans-serif;
-    font-size: 18px;
-    line-height: 30px;
+.color1{
     color: black;
 }
 
-.text2{
-    font-family: Signika, sans-serif;
-    font-size: 18px;
-    line-height: 30px;
+.color2{
     color: white;
+}
+
+.color3{
+    color: rgb(78, 148, 87);
+}
+
+.color4{
+    color: rgb(51, 90, 43);
 }
 
 /*Posições*/
@@ -43,13 +50,17 @@ a{
     text-align: right;
 }
 
-.justify{
-    text-align: justify;
+.mg1{  
+    margin: 3vh 0;
 }
 /*!Posições!*/
 
 /*Especificações*/
 
-.underline{    
+.underline1{    
 text-decoration: underline solid 10px rgb(78, 148, 87);
+}
+
+.underline2{    
+    text-decoration: underline solid 5px rgb(78, 148, 87);
 }
