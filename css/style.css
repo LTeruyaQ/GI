@@ -10,7 +10,14 @@ body{
 
 header{
     height: 100vh;
+    width: 100%;
     background-color: #E9E5CE;
+    display: flex;
+    justify-content: space-around;
+    background-size: 120vh;
+    background-position-x: 50%;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
 }
 
 nav{
