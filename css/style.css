@@ -38,7 +38,7 @@ textarea{
 }
 
 #equip{
-    height: 65vh;
+    height: 75vh;
     width: 60%;
 }
 
@@ -56,6 +56,10 @@ textarea{
     height: 60vh;
     justify-content: space-around;
     display: block;
+}
+
+#contact div input{ 
+    width: 40vh;
 }
 /*classes*/
 
