@@ -1,9 +1,7 @@
-header{
-    background-image: url(../img/painel-header.png);
-    background-size: 120vh;
-    background-position-x: 50%;
-    background-position-y: 80%;
-    background-repeat: no-repeat;
+.header_bg {
+    width: 100%;
+    margin-top: 5rem;
+    object-fit: contain;
 }
 
 .icon{
