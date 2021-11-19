@@ -29,6 +29,15 @@ header{
     height: 20vh;
 }
 
+.img2{
+    height: 30vh;
+    width: 30vh;;
+    border-radius: 100%;
+    background-color: black;
+    background-image: url(../img/ramos2.png);
+}
+
+
 /*Ids*/
 
 #slider {
@@ -71,7 +80,6 @@ header{
 
 .button:hover{
     border: solid 2px rgb(78, 148, 87);
-    margin: 2vh 0;
     color: rgb(78, 148, 87);
     background-color: rgb(102, 175, 111);
 }

@@ -13,6 +13,10 @@
 
 /*margens geral*/
 
+.mg{
+    margin: auto;
+}
+
 .mg0{
     margin: 0vh;
 }
@@ -26,6 +30,11 @@
 }
 
 /*margens verticais*/
+
+.mg-v{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 .mg1-v{  
     margin-top: 1vh;
@@ -130,6 +139,11 @@
 
 /*margens horizontais*/
 
+.mg-h{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mg1-h{  
     margin: 0 1vh;
 }
@@ -199,13 +213,28 @@
     margin: 0 10%;
 }
 
+.mg15-hp{  
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .mg2-hp{  
     margin-left: 20%;
     margin-right: 20%;
 }
 
+.mg25-hp{  
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .mg3-hp{  
     margin: 0 30%;
+}
+
+.mg35-hp{  
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
 .mg4-hp{  
@@ -239,6 +268,24 @@
 
 .mg15-b{
     margin-bottom: 15vh;
+}
+
+/*margin rigth*/
+
+.mg0-r{
+    margin-right: 0;
+}
+
+.mg5-r{
+    margin-right: 5vh;
+}
+
+.mg10-r{
+    margin-right: 10vh;
+}
+
+.mg15-r{
+    margin-right: 15vh;
 }
 
 /*padding geral*/
@@ -320,6 +367,10 @@
 
 .pd1-hp{  
     padding: 0 10%;
+}
+
+.pd15-hp{  
+    padding: 0 15%;
 }
 
 .pd2-hp{  

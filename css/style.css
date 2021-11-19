@@ -27,14 +27,29 @@ nav{
 
 textarea{
     height:150px;
-    width:  100vh;
+    width:  80.5vh;
 }
 /*Ids*/
 
 #destinations{
     width: 60%;
-    margin: 0 19%;
+    margin: 0 18%;
     justify-content: space-around;
+}
+
+#equip{
+    height: 65vh;
+    width: 60%;
+}
+
+#equip div{ 
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100% ;
+}
+
+#equip div article{
+    width: 30vh;
 }
 
 #contact{
@@ -42,10 +57,12 @@ textarea{
     justify-content: space-around;
     display: block;
 }
+/*classes*/
 
-#contact div input{
-    width: 50vh;
+.employees{
+    width: 40vh;
 }
+
 /*Divisores*/
 
 #container1{
@@ -57,6 +74,10 @@ textarea{
 }
 
 #container3{
+    background-color: rgb(98, 202, 112);
+}
+
+#container4{
     background-color: rgb(78, 148, 87);
 }
 
@@ -98,7 +119,6 @@ textarea{
 #destinations a:hover{
     background-color: rgb(102, 175, 111);
     text-align: center;
-    /*padding: 2% 0;*/
     border-radius: 10px;
 }
 
