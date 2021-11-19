@@ -1,3 +1,11 @@
+header{
+    background-image: url(../img/painel-header.png);
+    background-size: 120vh;
+    background-position-x: 50%;
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+}
+
 .icon{
     height:50px;
 }
@@ -5,34 +13,27 @@
 #navBarIcon{
     z-index: 1;
     top: 0;
-    margin: 3px 20px;
+    /*margin: 3px 20px;*/
 }
 
 /*classes*/
 
 .button{
-    border: solid 2px black;
-    margin: 2vh 0;
+    border: solid 2px rgb(51, 90, 43);
+    background-color: rgb(51, 90, 43);
+    border-radius: 30px;
+    /*padding: 2vh;*/
 }
 
 .img1{
     height: 20vh;
 }
 
-/*Aling*/
-
-.imgCenter{
-    margin: 5vh 45%;
-}
-
 /*Ids*/
 
 #slider {
     width: 60%;
-    width: 500px;
     height: 25vw;
-    height: 150px;
-    margin: 0vh 20% 50vh;
 }
 
 #slider img{
@@ -51,19 +52,30 @@
 }
 
 #projects{
-    width: 90%;
-    max-width: 90%;
+    width: 92%;
     height: 105vh;
     display: inline-flex;
-    margin: 10vh 5% 5vh;
+    margin: 10vh 4% 5vh;
+    justify-content: space-around;
 }
 
-#projects article{
+#projects section{
     display: block;
     width: 33%;
 }
 
-#projects article img{
+#projects section img{
     height: 80vh;
     width: 29.5vw;
+}
+
+.button:hover{
+    border: solid 2px rgb(78, 148, 87);
+    margin: 2vh 0;
+    color: rgb(78, 148, 87);
+    background-color: rgb(102, 175, 111);
+}
+
+@media screen and (max-width: 1000px){
+
 }

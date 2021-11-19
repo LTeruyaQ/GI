@@ -21,6 +21,11 @@ a{
     font-size: 40px;
 }
 
+.subTitle2{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 30px;
+}
+
 .color1{
     color: black;
 }
@@ -37,23 +42,11 @@ a{
     color: rgb(51, 90, 43);
 }
 
-/*Posições*/
-.left{
-    text-align: left;
+.color5{
+    color: rgb(102, 175, 111);
 }
 
-.center{
-    text-align: center;
-}
 
-.right{
-    text-align: right;
-}
-
-.mg1{  
-    margin: 3vh 0;
-}
-/*!Posições!*/
 
 /*Especificações*/
 
@@ -63,4 +56,11 @@ text-decoration: underline solid 10px rgb(78, 148, 87);
 
 .underline2{    
     text-decoration: underline solid 5px rgb(78, 148, 87);
+}
+
+@media screen and (max-width: 1000px){
+
+    .subTitle{
+        font-size: 30px;
+    }
 }

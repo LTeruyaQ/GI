@@ -1,0 +1,424 @@
+/*Posições*/
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+/*margens geral*/
+
+.mg0{
+    margin: 0vh;
+}
+
+.mg1{
+    margin: 1vh;
+}
+
+.mg2{
+    margin: 2vh;
+}
+
+/*margens verticais*/
+
+.mg1-v{  
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.mg2-v{  
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.mg3-v{  
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.mg4-v{  
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.mg5-v{  
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.mg6-v{  
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+.mg7-v{  
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.mg8-v{  
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.mg9-v{  
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+}
+
+.mg10-v{  
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.mg11-v{  
+    margin-top: 11vh;
+    margin-bottom: 11vh;
+}
+
+.mg12-v{  
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+.mg13-v{  
+    margin-top: 13vh;
+    margin-bottom: 13vh;
+}
+
+.mg14-v{  
+    margin-top: 14vh;
+    margin-bottom: 14vh;
+}
+
+.mg15-v{  
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.mg1-vp{  
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.mg2-vp{  
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.mg3-vp{  
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+.mg4-vp{  
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+.mg5-vp{  
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+
+/*margens horizontais*/
+
+.mg1-h{  
+    margin: 0 1vh;
+}
+
+.mg2-h{  
+    margin: 0 2vh;
+}
+
+.mg3-h{  
+    margin: 0 3vh;
+}
+
+.mg4-h{  
+    margin: 0 4vh;
+}
+
+.mg5-h{  
+    margin: 0 5vh;
+}
+
+.mg6-h{  
+    margin: 0 6vh;
+}
+
+.mg7-h{  
+    margin: 0 7vh;
+}
+
+.mg8-h{  
+    margin: 0 8vh;
+}
+
+.mg9-h{  
+    margin: 0 9vh;
+}
+
+.mg10-h{  
+    margin: 0 10vh;
+}
+
+.mg11-h{  
+    margin: 0 11vh;
+}
+
+.mg12-h{  
+    margin: 0 12vh;
+}
+
+.mg13-h{  
+    margin: 0 13vh;
+}
+
+.mg14-h{  
+    margin: 0 14vh;
+}
+
+.mg15-h{  
+    margin: 0 15vh;
+}
+
+.mg05-hp{  
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mg1-hp{  
+    margin: 0 10%;
+}
+
+.mg2-hp{  
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.mg3-hp{  
+    margin: 0 30%;
+}
+
+.mg4-hp{  
+    margin: 0 40%;
+}
+
+.mg45-hp{  
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.mg5-hp{  
+    margin: 0 50%;
+}
+
+/*margin top*/
+
+.mg10-t{
+    margin-top: 10vh;
+}
+
+/*margin bot*/
+
+.mg0-b{
+    margin-bottom: 0;
+}
+
+.mg5-b{
+    margin-bottom: 5vh;
+}
+
+.mg15-b{
+    margin-bottom: 15vh;
+}
+
+/*padding geral*/
+
+.pd2{
+    padding: 2vh;
+}
+
+.pd5{
+    padding: 5vh;
+}
+
+.pd10{
+    padding: 10vh;
+}
+
+/*padding horizontais*/
+
+.pd1-h{  
+    padding: 0 1vh;
+}
+
+.pd2-h{  
+    padding: 0 2vh;
+}
+
+.pd3-h{  
+    padding: 0 3vh;
+}
+
+.pd4-h{  
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+.pd5-h{  
+    padding: 0 5vh;
+}
+
+.pd6-h{  
+    padding: 0 6vh;
+}
+
+.pd7-h{  
+    padding: 0 7vh;
+}
+
+.pd8-h{  
+    padding: 0 8vh;
+}
+
+.pd9-h{  
+    padding: 0 9vh;
+}
+
+.pd10-h{  
+    padding:  0 10vh;
+}
+
+.pd11-h{  
+    padding: 0 11vh;
+}
+
+.pd12-h{  
+    padding: 0 12vh;
+}
+
+.pd13-h{  
+    padding: 0 13vh;
+}
+
+.pd14-h{  
+    padding: 0 14vh;
+}
+
+.pd15-h{  
+    padding: 0 15vh;
+}
+
+.pd1-hp{  
+    padding: 0 10%;
+}
+
+.pd2-hp{  
+    padding: 0 20%;
+}
+
+.pd3-hp{  
+    padding: 0 30%;
+}
+
+.pd4-hp{  
+    padding: 0 40%;
+}
+
+.pd5-hp{  
+    padding: 0 50%;
+}
+
+/*padding horizontal*/
+
+.pd1-v{  
+    padding: 1vh 0;
+}
+
+.pd2-v{  
+    padding: 2vh 0;
+}
+
+.pd3-v{  
+    padding: 3vh 0;
+}
+
+.pd4-v{  
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.pd5-v{  
+    padding: 5vh 0;
+}
+
+.pd6-v{  
+    padding: 6vh 0;
+}
+
+.pd7-v{  
+    padding: 7vh 0;
+}
+
+.pd8-v{  
+    padding: 8vh 0;
+}
+
+.pd9-v{  
+    padding: 9vh 0;
+}
+
+.pd10-v{  
+    padding: 10vh 0;
+}
+
+.pd11-v{  
+    padding: 11vh 0;
+}
+
+.pd12-v{  
+    padding: 12vh 0;
+}
+
+.pd13-v{  
+    padding: 13vh 0;
+}
+
+.pd14-v{  
+    padding: 14vh 0;
+}
+
+.pd15-v{  
+    padding: 15vh 0;
+}
+
+.pd1-vp{  
+    padding: 10% 0;
+}
+
+.pd2-vp{  
+    padding: 20% 0;
+}
+
+.pd3-vp{  
+    padding: 30% 0;
+}
+
+.pd4-vp{  
+    padding: 40% 0;
+}
+
+.pd5-vp{  
+    padding: 50% 0;
+}
+
+/*!Posições!*/
