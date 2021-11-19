@@ -86,4 +86,25 @@ header{
 
 @media screen and (max-width: 1000px){
 
+    .icon{
+        height:60px;
+    }
+
+    #slider img{
+        height: 40vh;
+    }
+
+    #projects section img{
+        height: 60vh;
+        width: 29.5vw;
+    }
+
+    #projects section p{
+        text-align: left;
+    }
+
+    .img2{
+        height: 20vh;
+        width: 20vh;;
+    }
 }

@@ -63,4 +63,21 @@ text-decoration: underline solid 10px rgb(78, 148, 87);
     .subTitle{
         font-size: 30px;
     }
+
+    *{
+        font-family: Rubik, sans-serif;
+        font-size: 15px;
+        line-height: 4vh;
+        text-align: justify;
+    }
+
+    .title{
+        font-family: Bebas Neue, sans-serif;
+        font-size: 50px;
+    }
+    
+    .subTitle2{
+        font-family: Bebas Neue, sans-serif;
+        font-size: 20px;
+    }
 }

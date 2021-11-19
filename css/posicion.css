@@ -252,6 +252,10 @@
 
 /*margin top*/
 
+.mg5-t{
+    margin-top: 5vh;
+}
+
 .mg10-t{
     margin-top: 10vh;
 }
@@ -413,7 +417,8 @@
 }
 
 .pd6-v{  
-    padding: 6vh 0;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 
 .pd7-v{  
@@ -473,3 +478,21 @@
 }
 
 /*!Posições!*/
+
+@media screen and (max-width: 1000px){
+
+.mg5-v{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.mg45-hp{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.pd2-hp{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+}
