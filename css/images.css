@@ -36,8 +36,7 @@
     height: 30vh;
     width: 30vh;;
     border-radius: 100%;
-    background-color: black;
-    background-image: url(../img/ramos2.png);
+    padding: 5px;
 }
 
 
