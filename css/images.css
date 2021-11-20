@@ -8,6 +8,11 @@
     height:50px;
 }
 
+.icon2{
+    height: 1.5rem;
+    color: white    ;
+}
+
 #navBarIcon{
     z-index: 1;
     top: 0;
