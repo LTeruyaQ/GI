@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -62,6 +63,7 @@ textarea{
     height: 60vh;
     justify-content: space-around;
     display: block;
+    align-items: center;
 }
 
 #contact div input{ 
@@ -105,6 +107,7 @@ textarea{
 
 .content2{
     width: 90%;
+    text-align: center;
 }
 
 .content3{

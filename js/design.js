@@ -26,3 +26,28 @@ setInterval(() => {
 }
 
 window.addEventListener("load", start)
+
+function projectVisibility(text){
+
+    if(text == 1){
+        document.getElementById("projectGen").style.visibility = "visible";
+        document.getElementById("projectVert").style.visibility = "hidden";
+        document.getElementById("projectRobot").style.visibility = "hidden";
+    }
+
+
+    if(text == 2){
+        document.getElementById("projectGen").style.visibility = "hidden";
+        document.getElementById("projectVert").style.visibility = "visible";
+        document.getElementById("projectRobot").style.visibility = "hidden";
+    }
+
+
+    if(text == 3){
+        document.getElementById("projectGen").style.visibility = "hidden";
+        document.getElementById("projectVert").style.visibility = "hidden";
+        document.getElementById("projectRobot").style.visibility = "visible";
+    }
+
+    document.getElementById('projects').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});;
+}
