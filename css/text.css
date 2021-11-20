@@ -11,18 +11,19 @@ a{
     text-decoration: none;
 }
 
-.title{
+.titles {
     font-family: Bebas Neue, sans-serif;
+}
+
+.title{
     font-size: 60px;
 }
 
 .subTitle{
-    font-family: Bebas Neue, sans-serif;
     font-size: 40px;
 }
 
 .subTitle2{
-    font-family: Bebas Neue, sans-serif;
     font-size: 30px;
 }
 
@@ -65,19 +66,16 @@ text-decoration: underline solid 10px rgb(78, 148, 87);
     }
 
     *{
-        font-family: Rubik, sans-serif;
         font-size: 15px;
         line-height: 4vh;
         text-align: justify;
     }
 
     .title{
-        font-family: Bebas Neue, sans-serif;
         font-size: 50px;
     }
     
     .subTitle2{
-        font-family: Bebas Neue, sans-serif;
         font-size: 20px;
     }
 }
