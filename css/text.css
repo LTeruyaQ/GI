@@ -47,7 +47,9 @@ a{
     color: rgb(102, 175, 111);
 }
 
-
+#mensagem{
+    max-width: 50vw;
+}
 
 /*Especificações*/
 
